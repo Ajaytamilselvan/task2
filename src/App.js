@@ -15,7 +15,7 @@ function App() {
     <>
       {/* <Nav />
       <Login /> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/task2">
         <Routes>
           <Route path='/' element={<Log/>} />
           <Route path='/Nav' element={<Nav/>} />
